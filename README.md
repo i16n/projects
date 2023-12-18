@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @ramencover
-- 👀 I’m interested in ML, CNNs, Data Infrastructure
+- 👀 I’m interested in Programming and have a background in Finance
 - 🌱 I’m currently learning to code
-- 💞️ I’m looking to collaborate on ML research
 - 📫 How to reach me - here on Github
 
 <!---
