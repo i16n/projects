@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ramencover
 - 👀 I’m interested in Programming and have a background in Finance
-- 🌱 I’m currently learning to code
+- 🌱 I love to code
 - 📫 How to reach me - here on Github
 
 <!---
