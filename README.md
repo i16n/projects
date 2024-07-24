@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Isaac H
 - 👀 I’m interested in Programming and have a background in Finance
-- 🌱 I love to code
+- 🌱 This is a showcase of my projects done in & outside of my regular classes
 - 📫 How to reach me - here on Github
 
 <!---
