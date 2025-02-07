@@ -2,7 +2,7 @@
 - 👋 Hi, I’m @Isaac H
 - 👀 I’m interested in Programming and have a background in Finance (private markets -- Venture, REPE, Growth)
 - 🌱 This is a showcase of my projects done in & outside of my regular classes
-- 📫 How to reach me - here on Github
+- 📫 How to reach me - here on Github (or through my resume)
   
 ## Overview
 - matching game. A matching game (with a twist) in javascript
