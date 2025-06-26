@@ -10,6 +10,7 @@
 # - remove comment toggle
 # - add a shortcut version option
 # - integrate iterative/recursive and shortcut/regular toggles to cli. -- do them per-session
+# add information showing how many iterations until we reached a number less than the input
 
 import subprocess
 
