@@ -6,6 +6,10 @@
 # set of rules on a given input number, also shows:
 # highest value reached
 # number of computations before reaching the number 1
+# later features:
+# - remove comment toggle
+# - add a shortcut version option
+# - integrate iterative/recursive and shortcut/regular toggles to cli. -- do them per-session
 
 import subprocess
 
@@ -20,9 +24,6 @@ def plot_from_tuples(data):
     process = subprocess.Popen(['youplot', 'line', '--width', '100', '--height', '50'], stdin=subprocess.PIPE)
     process.communicate(input=csv_data.encode())
 
-
-
-###=== computation ===###
 
 
 # recursive version of 3N+1
@@ -40,28 +41,25 @@ def threeNPlusOne(n, xPlot, data, maxVal):
     else:
         return threeNPlusOne((3 * n + 1) // 2, xPlot + 1, data, maxVal)
 
-
-
-
 # iterative version of 3N+1
 def threeNPlusOneIter(n):
     global numCycles, maxVal, dataOut
 
     while (n != 1):
-        if (n > maxVal): maxVal = n
+        if (n > maxVal):
+            maxVal = n
+
         dataOut.append((n,numCycles))
         numCycles += 1
+
         if (n % 2 == 0):
-            n /= 2
-        elif (n % 2 != 0):
-            n = (3*n+1)/2
-
-###=== end computation versions ===###
+            n //= 2 # Integer division... important.
+        else:
+            n = (3*n+1)
 
 
 
-
-
+# main loop
 while True:
     n = input("input a number to run 3n+1 on: ")
     try:
@@ -82,6 +80,6 @@ while True:
 
         # print other useful information
         print(f"Max value reached: {maxVal}")
-        print(f"Number of cycles: {len(dataOut) - 1}")
+        print(f"Number of computations: {numCycles}")
     except ValueError:
         print("That's not a valid integer!")
