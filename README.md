@@ -11,6 +11,20 @@
 - LinkedList! I wrote this after writing sudoku in C++ and realizing that it didn't really give me a good grasp on C++ manual memory management. Includes a linkedlist visualizer via a print() function, and all the regular functionality you might expect a linkedlist to have.
 - website for the venture firm I am an intern at (I've been interning here for a loooong time). Their old website can be found at ugrowthfund.com. If at this point we've gone live with the new site, try waybackmachine at some point at or before 08/21/25. At this point also you can view the pre-production website at ugf-website.vercel.app. Check the project-level readme for more details, like what I learned from building it.
 
+## What you won't find here
+Any work I've done relating to my internship at the defense contractor Sequent Logic or my current job at Paygasus  
+But anyway, a brief overview of skills acquired at these orgs:  
+cypress testing  
+unix terminal (linux in general)  
+jira  
+confluence  
+API design and DB schema design  
+raspberry pi work for remote JTAG debugging, 
+USB/IP  
+docker (specifically docker CLI)  
+CI/CD (specifically Continuous Integration with Gitlab Runners)
+
+
 <!---
 ramencover/ramencover is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
