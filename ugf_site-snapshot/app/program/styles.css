@@ -1,0 +1,40 @@
+/* Smooth scrolling for entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Photo carousel styles */
+/* Override any internal spacing in the carousel */
+.photo-carousel-container {
+  margin: 0 !important;
+  padding: 0 !important;
+  max-height: 450px;
+  overflow: hidden;
+}
+.photo-carousel-container > div {
+  margin-bottom: 0 !important;
+}
+/* Allow testimonials to float over photos */
+.photo-carousel-container .photo-testimonial {
+  z-index: 10;
+  position: relative;
+}
+/* Ensure photos display properly */
+.photo-carousel-container img {
+  object-fit: contain !important;
+  max-height: 400px !important;
+}
+
+/* Logo styling for Change Your Trajectory section */
+.logo-container {
+  perspective: 1000px;
+}
+
+.logo-item {
+  transition: all 0.5s ease-out !important;
+  background-color: transparent !important;
+  border-radius: 4px !important;
+  padding: 4px !important;
+  box-shadow: none !important;
+}
+

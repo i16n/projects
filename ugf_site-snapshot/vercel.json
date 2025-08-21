@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/webhook-refresh",
+      "schedule": "0 0 */2 * *"
+    },
+    {
+      "path": "/api/webhook-refresh-portcos",
+      "schedule": "0 0 */2 * *"
+    }
+  ]
+}

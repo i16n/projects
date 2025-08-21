@@ -1,0 +1,280 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.staggered-gradient {
+  background: linear-gradient(
+    135deg,
+    #f3f4f6 0%,
+    #f9fafb 25%,
+    #ffffff 50%,
+    #f9fafb 75%,
+    #f3f4f6 100%
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+/* Base pearlescent effect */
+.pearl-base {
+  position: relative;
+  overflow: hidden;
+}
+
+.pearl-base::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-size: 200% 200%;
+  mix-blend-mode: soft-light;
+  opacity: 0.7;
+  animation: wave 8s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* Unique pearl variations */
+.pearl-1::before {
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(168, 239, 255, 0.4) 25%,
+    rgba(255, 168, 168, 0.4) 50%,
+    rgba(186, 168, 255, 0.4) 75%,
+    rgba(255, 255, 255, 0.4) 100%
+  );
+  animation-duration: 12s;
+}
+
+.pearl-2::before {
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(168, 255, 189, 0.4) 25%,
+    rgba(168, 198, 255, 0.4) 50%,
+    rgba(255, 168, 230, 0.4) 75%,
+    rgba(255, 255, 255, 0.4) 100%
+  );
+  animation-duration: 10s;
+}
+
+.pearl-3::before {
+  background-image: linear-gradient(
+    225deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 168, 168, 0.4) 25%,
+    rgba(168, 255, 255, 0.4) 50%,
+    rgba(199, 168, 255, 0.4) 75%,
+    rgba(255, 255, 255, 0.4) 100%
+  );
+  animation-duration: 14s;
+}
+
+.pearl-4::before {
+  background-image: linear-gradient(
+    315deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 219, 168, 0.4) 25%,
+    rgba(168, 255, 222, 0.4) 50%,
+    rgba(168, 181, 255, 0.4) 75%,
+    rgba(255, 255, 255, 0.4) 100%
+  );
+  animation-duration: 11s;
+}
+
+.pearl-5::before {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(168, 255, 255, 0.4) 25%,
+    rgba(255, 168, 168, 0.4) 50%,
+    rgba(168, 255, 168, 0.4) 75%,
+    rgba(255, 255, 255, 0.4) 100%
+  );
+  animation-duration: 13s;
+}
+
+@keyframes wave {
+  0% {
+    background-position: 0% 50%;
+    transform: scale(1.5) translateY(-2%);
+  }
+  50% {
+    background-position: 100% 50%;
+    transform: scale(1.5) translateY(2%);
+  }
+  100% {
+    background-position: 0% 50%;
+    transform: scale(1.5) translateY(-2%);
+  }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 224.3 76.3% 48%;
+  }
+}
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
+
+html,
+body {
+  background-color: #000000;
+  scroll-behavior: smooth;
+}
+
+/* Ensure smooth scrolling for all elements */
+* {
+  scroll-behavior: smooth;
+}
+
+/* Or if you want to scope it only to management pages */
+[data-management-page="true"] {
+  background-color: #000000;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.logo-carousel {
+  display: flex;
+  animation: marquee 30s linear infinite;
+  width: max-content;
+}
+
+.logo-carousel:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.embla__container {
+  animation: scroll 30s linear infinite;
+}
+
+.embla__container:hover {
+  animation-play-state: paused;
+}
+
+/* Background Gradient animation */
+
+.backgroundGradient_module_backgroundGradient__7e2959cb {
+  background: linear-gradient(270deg, #9013fe, #00c9ff, #92fe9d, #ff7e5f);
+  background-size: 800% 800%;
+  animation: gradientAnimation 18s ease-in-out infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* For the animation and variant modifiers, you might see: */
+
+.backgroundGradient_module_animate__7e2959cb {
+  animation: gradientAnimation 18s ease-in-out infinite;
+}
+
+/* Reusable animated gradient for strategy section */
+.animated-gradient-bg {
+  background: linear-gradient(45deg, #000000, #036077, #004a7c, #132075);
+  background-size: 800% 800%;
+  animation: gradientAnimation 18s ease-in-out infinite;
+}
+
+/* Prevent text selection */
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}

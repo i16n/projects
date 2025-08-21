@@ -1,0 +1,32 @@
+{
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.autofetch": true,
+  "workbench.editorAssociations": {
+    "*.pdf": "latex-workshop-pdf-hook"
+  },
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+  "editor.minimap.enabled": false,
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "C_Cpp.formatting": "clangFormat",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "cmake.showOptionsMovedNotification": false,
+  "python.createEnvironment.trigger": "off",
+  "explorer.confirmDelete": false,
+  "editor.codeActionsOnSave": {}
+}
