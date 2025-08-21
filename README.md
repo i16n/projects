@@ -14,15 +14,15 @@
 ## What you won't find here
 Any work I've done relating to my internship at the defense contractor Sequent Logic or my current job at Paygasus  
 But anyway, a brief overview of skills acquired at these orgs:  
-cypress testing  
-unix terminal (linux in general)  
-jira  
-confluence  
-API design and DB schema design  
-raspberry pi work for remote JTAG debugging, 
-USB/IP  
-docker (specifically docker CLI)  
-CI/CD (specifically Continuous Integration with Gitlab Runners)
+- cypress testing  
+- unix terminal (linux in general)
+- jira  
+- confluence  
+- API design and DB schema design  
+- raspberry pi work for remote JTAG debugging, 
+- USB/IP  
+- docker (specifically docker CLI)  
+- CI/CD (specifically Continuous Integration with Gitlab Runners)
 
 
 <!---
