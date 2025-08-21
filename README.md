@@ -9,7 +9,7 @@
 - sudoku for console. This was my first project in C++
 - 3N+1 visualizer in Python - Input a number and view the graph it creates as it cycles through the 2 simple rules stated in the Collatz conjecture. It also provides number of "cycles" and the largest number reached. This all runs in the terminal. For this project, I implemented a recursive and iterative version of the actual 3N+1 function
 - LinkedList! I wrote this after writing sudoku in C++ and realizing that it didn't really give me a good grasp on C++ manual memory management. Includes a linkedlist visualizer via a print() function, and all the regular functionality you might expect a linkedlist to have.
-- website for the venture firm I am an intern at (I've been interning here for a loooong time). Their old website can be found at ugrowthfund.com. If at this point we've gone live with the new site, try waybackmachine at some point at or before 08/21/25. At this point also you can view the pre-production website at ugf-website.vercel.app. Check the project-level readme for more details, like what I learned from building it.
+- ugf_site-snapshot: Website for the venture firm I am an intern at (I've been interning here for a loooong time). Their old website can be found at ugrowthfund.com. If at this point we've gone live with the new site, try waybackmachine at some point at or before 08/21/25. At this point also you can view the pre-production website at ugf-website.vercel.app. Check the project-level readme for more details, like what I learned from building it.
 
 ## What you won't find here
 Any work I've done relating to my internship at the defense contractor Sequent Logic or my current job at Paygasus  
