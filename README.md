@@ -13,8 +13,8 @@
 
 ## What you won't find here
 This project I loved working on with a friend https://github.com/ay3xqa/kalshiXderibitTrading, where we built an automated trading bot to trade kalshi markets based on information gathered from deribit options chain, looking for discrepancies between a high-volume many-strikes marketplace and kalshi's lower-volume fewer-strike binary markets.  
-Any work I've done relating to my internship (because it's proprietary and/or confidential) at the defense contractor Sequent Logic or my current job at Paygasus  
-But anyway, a brief overview of skills acquired at these orgs:  
+Any work I've done relating to my internship (because it's proprietary and/or confidential) at the defense contractor Sequent Logic as a software engineer intern or my current job at Paygasus as a full-time software developer. 
+But anyway, a brief overview of skills acquired at these orgs:
 - cypress testing  
 - unix terminal (linux in general)
 - jira  
