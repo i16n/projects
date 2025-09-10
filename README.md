@@ -27,7 +27,8 @@ But anyway, a brief overview of skills acquired at these orgs:
 - CI/CD (specifically Continuous Integration with Gitlab Runners)
 
 ## What I'm currently reading
-I just finished my favorite book probably ever: _Gödel, Escher, Bach_, and am now working through _The Algorithm Design Manual, 2nd edition_,
+I just finished my favorite book probably ever: _Gödel, Escher, Bach_, and am now working through _The Algorithm Design Manual, 2nd edition_,  
+I don't usually read novels, but am about 3/4 of the way through Anna Karenina (Peaver and Volokhonsky translation) and am loving it. I can't put it down!
 
 <!---
 ramencover/ramencover is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
