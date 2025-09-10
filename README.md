@@ -13,7 +13,7 @@
 - ugf_site-snapshot: Website for the venture firm I am an intern at (I've been interning here for a loooong time). Their old website can be found at ugrowthfund.com. If at this point we've gone live with the new site, try waybackmachine at some point at or before 08/21/25. At this point also you can view the pre-production website at ugf-website.vercel.app. Check the project-level readme for more details, like what I learned from building it. At a high-level: React, TS, Nextjs, webhooks, CRON jobs, levels of caching that happen in web development, Vercel for hosting, analytics, blob storage, image optimization, APIs, revalidation, avoiding stale data, UI design (including gathering feedback from over 50 people), project management (I managed a team of 6+ people, used kanban board)
 
 ## What you won't find here
-This project I loved working on with a friend https://github.com/ay3xqa/kalshiXderibitTrading, where we built an automated trading bot to trade kalshi markets based on information gathered from deribit options chain, looking for discrepancies between a high-volume many-strikes marketplace and kalshi's lower-volume fewer-strike binary markets.  
+This project I loved working on with a friend https://github.com/ay3xqa/kalshiXderibitTrading, where we built an automated trading bot to trade kalshi markets based on information gathered from deribit options chain, looking for discrepancies between a high-volume many-strikes marketplace and kalshi's lower-volume fewer-strike binary markets.
 Any work I've done relating to my internship (because it's proprietary and/or confidential) at the defense contractor Sequent Logic as a software engineer intern or my current job at Paygasus as a full-time software developer. 
 But anyway, a brief overview of skills acquired at these orgs:
 - cypress testing  
@@ -28,7 +28,8 @@ But anyway, a brief overview of skills acquired at these orgs:
 
 ## What I'm currently reading
 I just finished my favorite book probably ever: _Gödel, Escher, Bach_, and am now working through _The Algorithm Design Manual, 2nd edition_,  
-I don't usually read novels, but am about 3/4 of the way through Anna Karenina (Peaver and Volokhonsky translation) and am loving it. I can't put it down!
+I don't usually read novels, but am about 3/4 of the way through Anna Karenina (Peaver and Volokhonsky translation) and am loving it. I can't put it down!  
+After this I plan to work through one of my math/theoretical CS textbooks. Not sure which one yet. Maybe _Introduction to the Theory of Computation_.
 
 <!---
 ramencover/ramencover is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
