@@ -6,7 +6,7 @@
 - 📫 How to reach me - through info on my resume!
   
 ## Overview
-- matching game. A matching game (with a twist) in javascript
+- matching game. A matching game (with a twist) in javascript. My first project ever and first code written in javascript.
 - sudoku for console. This was my first project in C++
 - 3N+1 visualizer in Python - Input a number and view the graph it creates as it cycles through the 2 simple rules stated in the Collatz conjecture. It also provides number of "cycles" and the largest number reached. This all runs in the terminal. For this project, I implemented a recursive and iterative version of the actual 3N+1 function
 - LinkedList! I wrote this after writing sudoku in C++ and realizing that it didn't really give me a good grasp on C++ manual memory management. Includes a linkedlist visualizer via a print() function, and all the regular functionality you might expect a linkedlist to have.
