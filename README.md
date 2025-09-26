@@ -3,7 +3,7 @@
 - 👋 Hi, I’m @Isaac H
 - 👀 I like to program and have a background in Finance (private markets -- Venture, REPE, Growth)
 - 🌱 This is a showcase of my projects done in & outside of my regular classes
-- 📫 How to reach me - here on Github (or through my resume)
+- 📫 How to reach me - through info on my resume!
   
 ## Overview
 - matching game. A matching game (with a twist) in javascript
@@ -29,9 +29,9 @@ But anyway, a brief overview of skills acquired at these orgs:
 - CI/CD (specifically Continuous Integration with Gitlab Runners)
 
 ## What I'm currently reading
-I just finished my favorite book probably ever: _Gödel, Escher, Bach_, and am now working through _The Algorithm Design Manual, 2nd edition_,  
-I don't usually read novels, but am about 3/4 of the way through Anna Karenina (Peaver and Volokhonsky translation) and am loving it. I can't put it down!  
-After this I plan to work through one of my math/theoretical CS textbooks. Not sure which one yet. Maybe _Introduction to the Theory of Computation_.
+I just finished my favorite book probably ever: _Gödel, Escher, Bach_.
+I don't usually read novels, but just finished _Anna Karenina_ (Peaver and Volokhonsky translation) I loved it. I think I liked it more than _Crime and Punishment_!  
+After this I plan to work through one of my math/theoretical CS textbooks. Not sure which one yet. Maybe _Introduction to the Theory of Computation_, or maybe the Wizard book.
 
 <!---
 ramencover/ramencover is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
