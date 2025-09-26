@@ -53,3 +53,6 @@ and that responsive design mode is very helpful.
 I also learned that in general, _by default_, vercel/nextjs will cache _everything_ on your pages unless you add
 `export const revalidate = <something in ms>` to your page or `export const dynamic = force-dynamic`
 THIS INCLUDES API REQUESTS -- it will call on build or on first page hit, and then... _never again_...
+
+## other notes
+This is not meant to be run by you. I removed the whole public directory anyway which will break many links.
