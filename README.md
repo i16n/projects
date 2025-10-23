@@ -1,7 +1,7 @@
 # Portfolio of projects
 
 - 👋 Hi, I’m @Isaac H
-- 👀 I like to program and have a background in Finance (private markets -- Venture, REPE, Growth)
+- 👀 I like to program and have a background in Finance (private markets -- Venture, Real Estate Private Equity, Growth)
 - 🌱 This is a showcase of my projects done in & outside of my regular classes
 - 📫 How to reach me - through info on my resume!
   
@@ -16,6 +16,10 @@
 This project I loved working on with a friend https://github.com/ay3xqa/kalshiXderibitTrading, where we built an automated trading bot to trade kalshi markets based on information gathered from deribit options chain, looking for discrepancies between a high-volume many-strikes marketplace and kalshi's lower-volume fewer-strike binary markets.  
   
 Any work I've done relating to my internship (because it's proprietary and/or confidential) at the defense contractor Sequent Logic as a software engineer intern or my current job at Paygasus as a full-time software developer.  
+
+My end of semester Software Practice 2 project, in C++ and using Qt. It is a little fun interface where you click around and learn about algorithms.  
+
+My end of semester Software Practice 1 project and the mid-semester project: a simple spreadsheet and a simple snake game. Both done in C# and using C#'s new frontend tool Blazor.  
   
 But anyway, a brief overview of skills acquired at these orgs:
 - cypress testing  
@@ -31,11 +35,13 @@ But anyway, a brief overview of skills acquired at these orgs:
 ## What I'm currently reading
 I just finished my favorite book probably ever: _Gödel, Escher, Bach_.
 I don't usually read novels, but just finished _Anna Karenina_ (Peaver and Volokhonsky translation) I loved it. I think I liked it more than _Crime and Punishment_!  
-After this I plan to work through one of my math/theoretical CS textbooks. Not sure which one yet. Maybe _Introduction to the Theory of Computation_, or maybe the Wizard book.
+After this I plan to work through one of my math/theoretical CS textbooks. Not sure which one yet. Maybe _Introduction to the Theory of Computation_, or maybe the Wizard book. I am also just now starting _The Brothers Karamazov_ -- it's been on my list for a while.  
 
 ## Hobbies
 My wife and I have 2 children, so I spend time with them in my spare time. I also love reading, learning German (currently at A1 level), and playing the violin.
 
+## Other things about me
+I'm currently a senior in university. I found a fantastic professor to work with for my Bachelor's thesis. We're doing research into memory security. Processor-level shared memory area. Very exciting stuff!  
 <!---
 ramencover/ramencover is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
