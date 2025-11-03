@@ -35,7 +35,7 @@ But anyway, a brief overview of skills acquired at these orgs:
 ## What I'm currently reading
 I just finished my favorite book probably ever: _Gödel, Escher, Bach_.
 I don't usually read novels, but just finished _Anna Karenina_ (Peaver and Volokhonsky translation) I loved it. I think I liked it more than _Crime and Punishment_!  
-After this I plan to work through one of my math/theoretical CS textbooks. Not sure which one yet. Maybe _Introduction to the Theory of Computation_, or maybe the Wizard book. I am also just now starting _The Brothers Karamazov_ -- it's been on my list for a while.  
+I'm now reading _The Machinery of Life_.
 
 ## Hobbies
 My wife and I have 2 children, so I spend time with them in my spare time. I also love reading, learning German (currently at A1 level), and playing the violin.
