@@ -14,6 +14,8 @@
 
 ## What you won't find here
 This project I loved working on with a friend https://github.com/ay3xqa/kalshiXderibitTrading, where we built an automated trading bot to trade kalshi markets based on information gathered from deribit options chain, looking for discrepancies between a high-volume many-strikes marketplace and kalshi's lower-volume fewer-strike binary markets.  
+
+This project I'm currently obsessed with in Conversational AI. Built on livekit. link to teaser and blog: wallacecorp.ai
   
 Any work I've done relating to my internship (because it's proprietary and/or confidential) at the defense contractor Sequent Logic as a software engineer intern or my current job at Paygasus as a full-time software developer.  
 
