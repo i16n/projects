@@ -1,0 +1,44 @@
+
+body {
+  background-color:#282828;
+}
+
+#board {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+  }
+
+#board div {
+  width: 120px;
+  height: 140px;
+  background-color: red;
+  flex: 1 0 21%;
+  margin: auto 5px auto 5px;
+  flex-direction: row;
+  text-align: center;
+  font-size: 50px;
+}
+
+h1 {
+  color:aliceblue;
+}
+
+h3 {
+  color:aliceblue;
+}
+
+label {
+  color:aliceblue;
+}
+
+footer {
+  color:aliceblue;
+}
+
+#ScoreTracker {
+  color:aliceblue;
+}
