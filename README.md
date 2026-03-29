@@ -1,11 +1,9 @@
 # Portfolio of projects
 
-- 👋 Hi, I’m @Isaac H
-- 👀 I like to program
-- 🌱 This is a showcase of my projects done in & outside of my regular classes
-- 📫 How to reach me - discord @goughsfriend
+- Hi, I’m @Isaac H, I like to program, this is a showcase of my projects done in & outside of my regular classes
+- How to reach me - discord @goughsfriend
   
-## Overview
+## List projs
 - matching game. A matching game (with a twist) in javascript. My first project ever and first code written in javascript.
 - sudoku for console. This was my first project in C++
 - 3N+1 visualizer in Python - Input a number and view the graph it creates as it cycles through the 2 simple rules stated in the Collatz conjecture. It also provides number of "cycles" and the largest number reached. This all runs in the terminal. For this project, I implemented a recursive and iterative version of the actual 3N+1 function
@@ -17,7 +15,8 @@
 
 
 ## What you won't find here
-This project I'm currently obsessed with in Conversational AI. Built on livekit. link to teaser and blog: wallacecorp.ai
+This project I'm currently obsessed with in Conversational AI. Built on livekit. link to teaser and blog: wallacecorp [dot] ai
+stack: supabase, tauri, livekit python agents framework, some Swift interop as well
   
 Any work I've done relating to my internship (because it's proprietary and/or confidential) at the defense contractor Sequent Logic as a software engineer intern or my current job at Paygasus as a full-time software developer.  
 
