@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Square Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Spinning Matching Game</h1>
+
+  <div id="board">
+    <div id="one" ></div>
+    <div id="two"></div>
+    <div id="three"></div>
+    <div id="four"></div>
+    <div id="five"></div>
+    <div id="six"></div>
+    <div id="seven"></div>
+    <div id="eight"></div>
+    <div id="nine"></div>
+    <div id="ten"></div>
+    <div id="eleven"></div>
+    <div id="twelve"></div>
+    <div id="thirteen"></div>
+    <div id="fourteen"></div>
+    <div id="fifteen"></div>
+    <div id="sixteen"></div>
+  </div>
+  
+
+  <label for="difficulty">Difficulty</label>
+  <select id="difficulty">
+    <option value="0.0005">Baby</option>
+    <option value="0.001">Easy</option>
+    <option value="0.0045">Medium</option>
+    <option value="0.009">Hard</option>
+  </select>
+
+  <label for="ScoreTracker">Current Score:</label>
+  <div id="ScoreTracker">0</div>
+
+  <h3 id="win"></h3>
+  <button id="resetButton">reset</button>
+
+  <script src="main.js"></script>
+</body>
+</html>
